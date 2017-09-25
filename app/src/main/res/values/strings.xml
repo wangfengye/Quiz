@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="q1">1.“千门万户曈曈日，总把新桃换旧符”中“新桃”是什么意思？(2分)</string>
+    <string name="q1_a">A.早开的桃花</string>
+    <string name="q1_b">B.新的桃符</string>
+    <string name="q1_c">C.寿桃馒头</string>
+    <string name="q2">2.“商女不知亡国恨,隔江犹唱后庭花”中“国”是哪个朝代？(2分)</string>
+    <string name="q2_a">A.商朝</string>
+    <string name="q2_b">B.陈朝</string>
+    <string name="q2_c">C.唐朝</string>
+    <string name="q3">3. 人生若只如初见,(2分)</string>
+    <string name="q4">4.飞“春”字(选带“春”字的诗词)(4分)</string>
+    <string name="q4_a">A.等闲识得东风面，万紫千红总是春</string>
+    <string name="q4_b">B.人闲桂花落，夜静春山空</string>
+    <string name="q4_c">C.人间四月芳菲尽，山寺桃花始盛开</string>
+    <string name="q3_result">何事秋风悲画扇</string>
+    <string name="submit">评分</string>
+    <string name="q3_hint">请填写诗词</string>
+    <string name="q_true">正确\n</string>
+    <string name="q_false">错误\n</string>
+    <string name="q_1">Q1:</string>
+    <string name="q_2">Q2:</string>
+    <string name="q_3">Q3:</string>
+    <string name="q_4">Q4:</string>
+    <string name="total_score">总分:</string>
+</resources>
