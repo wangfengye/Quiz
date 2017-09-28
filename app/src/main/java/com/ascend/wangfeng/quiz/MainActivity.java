@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findView() {
-        result1Btn = (RadioGroup) findViewById(R.id.q1_result);
-        result2Btn = (RadioGroup) findViewById(R.id.q2_result);
-        result3Edit = (EditText) findViewById(R.id.q3_result);
-        result41Box = (CheckBox) findViewById(R.id.q4_result_1);
-        result42Box = (CheckBox) findViewById(R.id.q4_result_2);
-        result43Box = (CheckBox) findViewById(R.id.q4_result_3);
+        result1Btn = (RadioGroup) findViewById(R.id.rg_q1_result);
+        result2Btn = (RadioGroup) findViewById(R.id.rg_q2_result);
+        result3Edit = (EditText) findViewById(R.id.ed_q3_result);
+        result41Box = (CheckBox) findViewById(R.id.cb_q4_result_1);
+        result42Box = (CheckBox) findViewById(R.id.cb_q4_result_2);
+        result43Box = (CheckBox) findViewById(R.id.cb_q4_result_3);
 
-        mRate = (Button) findViewById(R.id.submit);
+        mRate = (Button) findViewById(R.id.btn_submit);
         mRate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder builder = new StringBuilder();
         //Q1
         int result1 = result1Btn.getCheckedRadioButtonId();
-        if (result1 == R.id.q1_result_2) {
+        if (result1 == R.id.rb_q1_result_2) {
             score += 2;
             builder.append(getString(R.string.q_1)).append(getString(R.string.q_true));
         } else {
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         }
         //Q2
         int result2 = result2Btn.getCheckedRadioButtonId();
-        if (result2 == R.id.q2_result_2) {
+        if (result2 == R.id.rb_q2_result_2) {
             score += 2;
             builder.append(getString(R.string.q_2)).append(getString(R.string.q_true));
         } else {

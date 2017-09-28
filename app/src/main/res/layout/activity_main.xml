@@ -24,25 +24,25 @@
                 android:text="@string/q1"/>
 
             <RadioGroup
-                android:id="@+id/q1_result"
+                android:id="@+id/rg_q1_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/q1_result_1"
+                    android:id="@+id/rb_q1_result_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q1_a"/>
 
                 <RadioButton
-                    android:id="@+id/q1_result_2"
+                    android:id="@+id/rb_q1_result_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q1_b"/>
 
                 <RadioButton
-                    android:id="@+id/q1_result_3"
+                    android:id="@+id/rb_q1_result_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:lines="1"
@@ -61,25 +61,25 @@
                 android:text="@string/q2"/>
 
             <RadioGroup
-                android:id="@+id/q2_result"
+                android:id="@+id/rg_q2_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/q2_result_1"
+                    android:id="@+id/rb_q2_result_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q2_a"/>
 
                 <RadioButton
-                    android:id="@+id/q2_result_2"
+                    android:id="@+id/rb_q2_result_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q2_b"/>
 
                 <RadioButton
-                    android:id="@+id/q2_result_3"
+                    android:id="@+id/rb_q2_result_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q2_c"/>
@@ -93,13 +93,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/title_q3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q3"/>
 
             <EditText
-                android:id="@+id/q3_result"
+                android:id="@+id/ed_q3_result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -118,26 +117,26 @@
                 android:text="@string/q4"/>
 
             <CheckBox
-                android:id="@+id/q4_result_1"
+                android:id="@+id/cb_q4_result_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q4_a"/>
 
             <CheckBox
-                android:id="@+id/q4_result_2"
+                android:id="@+id/cb_q4_result_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q4_b"/>
 
             <CheckBox
-                android:id="@+id/q4_result_3"
+                android:id="@+id/cb_q4_result_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q4_c"/>
         </LinearLayout>
 
         <Button
-            android:id="@+id/submit"
+            android:id="@+id/btn_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
